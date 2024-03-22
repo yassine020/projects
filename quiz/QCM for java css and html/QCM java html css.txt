@@ -1,0 +1,62 @@
+for javascript :
+
+1)which keyword is used to decalare a variable in javascript :
+	a) var
+	b) let
+	c) const
+	d) all of the above----
+
+2)what is the result of : typeof(20) :
+	a) undefined
+	b) object
+	c) list
+	d) number ----
+
+3) how to select an element with the id in javascript :
+	a) documtn.getElementById()
+	b) document.getElementById()----
+	c) document.select()
+	d) document.getElementById().innerHTML
+
+4) what is the result of : 5 + "5" in javascript :
+	a) 10
+	b) "55" ----
+	c) 55
+	d) erreur
+
+5) how to create a function in javascript :
+	a) function .......(){}-----
+	b) fonction .......(){}
+	c) def ......():
+	d) all of the above
+
+6) which function is used to output data to the console in javascript:
+	a) console.write()
+	b) console.log() ----
+	c) print()
+	d) output()
+
+7) what does the " alert() " function in javascript :
+	a) opens a dialog box with a message ---
+	b) prints a message to the console
+	c) redirects the user to another page
+	d) prompts the user for an input
+
+8) how do you print "hello world" in javascript :
+	a) alert("hello world") ----
+	b) prompt("hello world") ----
+	c) console.log("hello world") ----
+	d) document.write("hello world") ----
+
+9) what is the result of 5 == "5" in javascript :
+	a) true ----
+	b) false
+	c) undefined
+	d) null
+
+10) how to write an if statment in javascript :
+	a) if(......){....]
+	b) if ..... : ....
+	c) if{......} :
+	d) neither of those
+	

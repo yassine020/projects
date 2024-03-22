@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css quiz</title>
+    <link rel="stylesheet" href="css_quiz.css">
+</head>
+<body>
+    <script src="css_quiz.js"></script>
+    <h1>welcome to the css quiz</h1>
+    <h3>You have 1 minute to complete this test</h3>
+    <p id="timer"></p>
+        <fieldset>
+            <legend>questions</legend>
+            <div id="question1">
+                <label>1) what proprety is used to change the background of an element in css :</label><br>
+                <input type="checkbox" id="q-1-1">color<br>
+                <input type="checkbox" id="q-1-2">background-color<br>
+                <input type="checkbox" id="q-1-3">style
+            </div><br>
+            <div id="question2">
+                <label>2) which selector targets all elements of a specific class :</label><br>
+                <input type="checkbox" id="q-2-1">.class_name<br>
+                <input type="checkbox" id="q-2-2">#class_name<br>
+                <input type="checkbox" id="q-2-3">class_name
+            </div><br>
+            <div id="question3">
+                <label>3) how do you center text horizentally within a container :</label><br>
+                <input type="checkbox" id="q-3-1">align : center ;<br>
+                <input type="checkbox" id="q-3-2">text-align : center ;<br>
+                <input type="checkbox" id="q-3-3">center-align;
+            </div><br>
+            <div id="question4">
+                <label>4) how to add a hover effect that changes an element background color when the mouse hovers it :</label><br>
+                <input type="checkbox" id="q-4-1">hover : background-color : color ;<br>
+                <input type="checkbox" id="q-4-2">onmouseover : background-color : color ;<br>
+                <input type="checkbox" id="q-4-3">change-on-hover : background-color : color ;
+            </div><br>
+            <div id="question5">
+                <label>5) what proprety specifies the width of an element's content area:</label><br>
+                <input type="checkbox" id="q-5-1">size<br>
+                <input type="checkbox" id="q-5-2">width<br>
+                <input type="checkbox" id="q-5-3">length
+            </div><br>
+            <div id="question6">
+                <label>6) how do you change the font style of an element :</label><br>
+                <input type="checkbox" id="q-6-1">font-style : style ;<br>
+                <input type="checkbox" id="q-6-2">style-font : style ;<br>
+                <input type="checkbox" id="q-6-3">font : style ;
+            </div><br>
+            <div id="question7">
+                <label>7) what proprety is used to change the text color of an element </label><br>
+                <input type="checkbox" id="q-7-1">font-color<br>
+                <input type="checkbox" id="q-7-2">color<br>
+                <input type="checkbox" id="q-7-3">style-text
+            </div><br>
+            <div id="question8">
+                <label>8) which selector targets all elements of html in css:</label><br>
+                <input type="checkbox" id="q-8-1">*<br>
+                <input type="checkbox" id="q-8-2">h1<br>
+                <input type="checkbox" id="q-8-3">body
+            </div><br>
+            <div class="question9">
+                <label>9) how do you underline a text :
+                </label><br>
+                <input type="checkbox" id="q-9-1">text-decoration: underline;<br>
+                <input type="checkbox" id="q-9-2">font-familly : underline ;<br>
+                <input type="checkbox" id="q-9-3">style-underline : on ;
+            </div><br>
+            <div id="quesiton10">
+                <label>10) how do you create a list with bullet points :</label><br>
+                <input type="checkbox" id="q-10-1">list-style : circle ;<br>
+                <input type="checkbox" id="q-10-2">bullet : circle ;<br>
+                <input type="checkbox" id="q-10-3">style-list : circle
+            </div>
+        </fieldset>
+        <input type="button" value="veifier" onclick="affichage_de_css()"><input type="reset" value="annuler">
+
+</body>
+</html>

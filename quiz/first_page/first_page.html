@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first page</title>
+    <link rel="stylesheet" href="first_page.css">
+</head>
+<body>
+    <script src="first_page.js"></script>
+    <h1>welcome to quiz game</h1>
+    <form>
+        <fieldset>
+            <legend>enter your pesonnal informations</legend>            
+            <label>first name : </label><input type="text" placeholder="enter your name" id="name"><br>
+            <label>last name : </label><input type="text" placeholder="enter your last name" id="prename"><br>
+            <label>select the quiz type : </label>
+            <input type="radio" name="f" id="js">java script
+            <input type="radio" name="f" id="html">HTML
+            <input type="radio" name="f" id="css">CSS<br><br>
+            <input type="checkbox" id="robot">Im not a robot<br>
+        </fieldset>
+        <input type="button" value="play" onclick="affichage()"><input type="reset" value="cancel">
+    </form>
+</body>
+</html>
